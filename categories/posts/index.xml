@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kerem&#39;s Blog</title>
-    <link>https://kerems.blog/</link>
-    <description>Recent content on Kerem&#39;s Blog</description>
+    <title>posts on Kerem&#39;s Blog</title>
+    <link>https://kerems.blog/categories/posts/</link>
+    <description>Recent content in posts on Kerem&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://kerems.blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kerems.blog/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>You do planning to design the set of actions to achieve a goal.
 You do preparation to get ready for some future goal.
 Both are important. But the famous quote goes: &amp;ldquo;Everybody has a plan until they get punched in the mouth.&amp;rdquo; If your plans need to change during execution, the number of required modifications, and how well you implement those modifications depend on your preparation.</description>
-    </item>
-    
-    <item>
-      <title>Hi, I&#39;m Kerem Kayabay</title>
-      <link>https://kerems.blog/about/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kerems.blog/about/</guid>
-      <description>I am a researcher and developer active in data science and information systems domains. My current research is about finding ways to help transform data-disadvantaged (or underachiever) organizations to use data more effectively. Whenever I find the time, I develop open-source projects that address some of my problems.
-In this blog, you will my latest findings. I also write here to clarify my thoughts. You can check out my research at Google Scholar and my projects at GitHub.</description>
     </item>
     
   </channel>
