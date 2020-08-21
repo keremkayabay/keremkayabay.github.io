@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Kerem&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kerems.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Use applications with intention</title>
+      <link>https://kerems.blog/posts/200821-use-applications-with-intention/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerems.blog/posts/200821-use-applications-with-intention/</guid>
+      <description>A long time ago, we couldn&amp;rsquo;t reach the information we want. While that&amp;rsquo;s no longer the case, today, we struggle with different problems: noise, clutter, and discovery. We receive so many emails throughout the day, many of which are just junk. Despite finding relevant and high-quality content is a significant problem, applications train their discovery algorithms toward a different purpose: for us to use them much longer than what is necessary.</description>
+    </item>
     
     <item>
       <title>Planning vs Preparation</title>
