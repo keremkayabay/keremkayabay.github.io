@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Kerem&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kerems.blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Use VSCode for LaTeX</title>
+      <link>https://kerems.blog/posts/200916-use-vscode-for-latex/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerems.blog/posts/200916-use-vscode-for-latex/</guid>
+      <description>VSCode for LaTeX Prepare your system I am using Ubuntu 18.04 that runs on my Windows 10 PC with the Windows Subsystem for Linux 2 (WSL 2). If you also use Windows 10, I recommend using the following resources to set up WSL 2:
+ Windows Subsystem for Linux Installation Guide for Windows 10 The Complete Developer&amp;rsquo;s Guide to Windows Subsystem for Linux 2  For a quick start, we will use the VSCode &amp;ldquo;Remote Containers&amp;rdquo; extension.</description>
+    </item>
     
     <item>
       <title>Use applications with intention</title>
