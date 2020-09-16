@@ -17,7 +17,7 @@
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kerems.blog/posts/200916-use-vscode-for-latex/</guid>
-      <description>Visual Studio Code (VSCode) is a free and open-source editor available for Windows, Linux, and macOS. I currently use VSCode for coding in Python, taking markdown notes, and also editing this blog. I like VSCode because of the open-source extensions that you can use to tailor-make workspaces for the development context. In this post, I share a method to give VSCode Overleaf-like capabilities. It requires some time investment, but you can get many paid features of Overleaf for free.</description>
+      <description>In this post, I share a method to give VSCode Overleaf-like capabilities. It requires some time investment, but you can get many paid features of Overleaf for free.</description>
     </item>
     
     <item>
@@ -26,8 +26,7 @@
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kerems.blog/posts/200821-use-applications-with-intention/</guid>
-      <description>We couldn&amp;rsquo;t reach the information we wanted a long time ago. While that&amp;rsquo;s no longer the case, today, we struggle with different problems: Maintaining focus and discovering critical information in noise and clutter. Here I share some of the tricks I employ to overcome these problems. My intention is to update this post, adding more apps and tips.
-Web browsers Be careful about the amount of time you spend on web sites, especially the addictive ones.</description>
+      <description>We couldn&amp;rsquo;t reach the information we wanted a long time ago. While that&amp;rsquo;s no longer the case, today, we struggle with different problems: Maintaining focus and discovering critical information in noise and clutter. Here I share some of the tricks I employ to overcome these problems.</description>
     </item>
     
     <item>
@@ -36,9 +35,7 @@ Web browsers Be careful about the amount of time you spend on web sites, especia
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kerems.blog/posts/200623-planning-vs-preparation/</guid>
-      <description>You do planning to design the set of actions to achieve a goal.
-You do preparation to get ready for some future goal.
-Both are important. But the famous quote goes: &amp;ldquo;Everybody has a plan until they get punched in the mouth.&amp;rdquo; If your plans need to change during execution, the number of required modifications, and how well you carry out those modifications depend on your preparation.</description>
+      <description>Both are important. But the famous quote goes: &amp;ldquo;Everybody has a plan until they get punched in the mouth.&amp;rdquo;</description>
     </item>
     
     <item>
@@ -47,8 +44,8 @@ Both are important. But the famous quote goes: &amp;ldquo;Everybody has a plan u
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kerems.blog/about/</guid>
-      <description>I am a researcher and developer active in data science and information systems domains. My current research is about finding ways to help transform data-disadvantaged (or underachiever) organizations to use data more effectively. Whenever I find the time, I develop open-source projects that address some of my problems.
-In this blog, you will find my latest findings. I also write here to clarify my thoughts. You can check out my research at Google Scholar and my projects at GitHub.</description>
+      <description>&lt;p&gt;I am a researcher and developer active in data science and information systems domains. My current research is about finding ways to help transform data-disadvantaged (or underachiever) organizations to use data more effectively. Whenever I find the time, I develop open-source projects that address some of my problems.&lt;/p&gt;
+&lt;p&gt;In this blog, you will find my latest findings.&lt;/p&gt;</description>
     </item>
     
   </channel>
