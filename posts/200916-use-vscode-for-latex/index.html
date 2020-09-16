@@ -55,7 +55,7 @@
 
 		
 
-		<h1 id="vscode-for-latex">VSCode for LaTeX</h1>
+		<p>Visual Studio Code (VSCode) is a free and open-source editor available for Windows, Linux, and macOS. I currently use VSCode for coding in Python, taking markdown notes, and also editing this blog. I like VSCode because of the open-source extensions that you can use to tailor-make workspaces for the development context. In this post, I share a method to give VSCode Overleaf-like capabilities. It requires some time investment, but you can get <a href="https://www.overleaf.com/user/subscription/plans">many paid features of Overleaf</a> for free.</p>
 <h2 id="prepare-your-system">Prepare your system</h2>
 <p>I am using Ubuntu 18.04 that runs on my Windows 10 PC with the Windows Subsystem for Linux 2 (WSL 2). If you also use Windows 10, I recommend using the following resources to set up WSL 2:</p>
 <ul>
@@ -68,33 +68,48 @@
 <p>
   <figure>
     <img src="../../images/2020-09-01-11-22-32.png" alt="">
-    <figcaption>Image Title</figcaption>
+    <em>VSCode suggests installing Remote - WSL extension after it detects it is installed on your system.</em>
   </figure>
 </p>
 <p>You also need the Remote Containers extension. Hit <code>Ctrl+Shift+X</code> to bring up the extensions panel. Search for and install the &ldquo;Remote Containers&rdquo; extension.</p>
 <h2 id="prepare-a-development-container-for-latex">Prepare a development container for LaTeX</h2>
 <p>I prepared <a href="https://github.com/keremkayabay/vscode-container-configuration-files-for-latex">a git repo</a> that contains the VSCode container configuration files for LaTeX. Download or clone the repo, and open the folder in VSCode editor. VSCode detects the configuration files and suggests reopening the folder to develop in a container. You can also hit <code>F1</code> and type: Remote Containers: Reopen in Container. <strong>The container setup takes a long time</strong>, but it happens only once.</p>
 <p>
-  <img src="../../images/2020-09-10-11-53-36.png" alt="">
+  <figure>
+    <img src="../../images/2020-09-10-11-53-36.png" alt="">
+    <em>VSCode detects the configuration files and suggests reopening the folder in a container.</em>
+  </figure>
 </p>
 <p>When the setup is complete, hit <code>Ctrl+Shift+X</code> and bring up the extensions panel. You will see the LaTeX Workshop installed but disabled. Enable the extension in the development container. VSCode may require a reload to enable the extension.</p>
 <p>
-  <img src="../../images/2020-09-10-12-05-56.png" alt="">
+  <figure>
+    <img src="../../images/2020-09-10-12-05-56.png" alt="">
+    <em>You need to enable LaTeX Workshop extension manually.</em>
+  </figure>
 </p>
 <h2 id="start-building-latex">Start building LaTeX!</h2>
 <p>To start off, let&rsquo;s use the IEEE&rsquo;s LaTeX Template for conference proceedings. Go to the <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE conference templates site</a> and download the LaTeX Template (ZIP archive). Extract the zip archive to your development folder.</p>
 <p>
-  <img src="../../images/2020-09-10-12-12-56.png" alt="">
+  <figure>
+    <img src="../../images/2020-09-10-12-12-56.png" alt="">
+    <em>Folder structure in my development folder</em>
+  </figure>
 </p>
 <p>Through explorer panel (<code>Ctrl+Shift+E</code>), find and open the <code>*.tex</code> file. Use <code>Ctrl+Alt+V</code> to view the LaTeX PDF file. That&rsquo;s it! You now have a workspace that builds LaTeX and shows you the output PDF in real-time, similar to Overleaf. Check out <a href="https://github.com/James-Yu/LaTeX-Workshop">LaTeX-Workshop&rsquo;s GitHub Repo</a> for the list of features and wiki.</p>
 <p>
-  <img src="../../images/2020-09-10-12-18-01.png" alt="">
+  <figure>
+    <img src="../../images/2020-09-10-12-18-01.png" alt="">
+    <em>Changes are reflected to theoutput PDF after you save the ``.tex`` document.</em>
+  </figure>
 </p>
 <h2 id="insert-citations-and-bibliography">Insert citations and bibliography</h2>
 <p><a href="https://www.zotero.org/">Zotero</a> is an open-source tool that helps you organize and cite your research. If you are not using any reference manager software, I highly recommend Zotero.</p>
 <p>We need to install the Better BibTeX extension to Zotero. Use <a href="https://retorque.re/zotero-better-bibtex/installation/">these steps</a> to install the extension.</p>
 <p>
-  <img src="../../images/2020-09-16-14-01-11.png" alt="">
+  <figure>
+    <img src="../../images/2020-09-16-14-01-11.png" alt="">
+    <em>The extension generates citation keys in Zotero.</em>
+  </figure>
 </p>
 <p>After installation, open Zotero, click &ldquo;File &gt; Export Library&rdquo;. The format is Better BibTex, and you should check the keep updated option. Export the library to the development folder. I&rsquo;ve named it <code>zotero-library.bib</code>.</p>
 <p>To insert a bibliography, add the following lines at the end of your document. If you are still using the IEEE&rsquo;s template, you need to remove the existing bibliography and citations in the text to prevent errors.</p>
@@ -121,7 +136,7 @@
 
         		<footer>
 			<span>
-			&copy; <time datetime="2020-09-16 14:41:13.1098029 &#43;0300 &#43;03 m=&#43;0.891242901">2020</time> Kerem Kayabay. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2020-09-16 16:16:49.4212268 &#43;0300 &#43;03 m=&#43;0.886594401">2020</time> Kerem Kayabay. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 
